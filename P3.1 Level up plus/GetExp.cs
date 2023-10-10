@@ -1,4 +1,4 @@
-public class GetExp
+public class Player
 {
     public int Level;
     public float Experience;

@@ -1,5 +1,7 @@
 ﻿// Level up +
 
-GetExp getExp = new GetExp();
+Player player1 = new Player();
 
-getExp.GrantExperience();
+player1.GrantExperience();
+
+// player1.GrantExperience();(int.Parse(Console.ReadLine()));
