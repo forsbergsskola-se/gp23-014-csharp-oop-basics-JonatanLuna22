@@ -1,8 +1,8 @@
-﻿
-public class GetExp 
+﻿public class GetExp 
 {
     public int Level;
-    public int Experience;
+    public float Experience;
+    public float ExpNeeded = 100;
     
     public void GrantExperience() {
         
@@ -12,10 +12,17 @@ public class GetExp
         
         // Level Up
         
-        while(Experience > 99) 
+        while(Experience > ExpNeeded) 
         {
             Level++;
-            Experience -= 100;
+            
+            ExpNeeded *= 1.5f;
+            Experience -= ExpNeeded;
+           
+            if (Experience%2 != 0)
+            {
+                Experience += 0.5f;
+            }
         }
         
         Console.WriteLine($"Lvl: {Level}, Exp: {Experience}");
