@@ -1,4 +1,4 @@
 public class Player
 {
-    int gold;
+    public int gold = 200;
 }

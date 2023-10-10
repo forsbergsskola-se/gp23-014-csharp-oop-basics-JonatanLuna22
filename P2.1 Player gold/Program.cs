@@ -9,6 +9,6 @@ Assign the value 200 to Field gold of that Player instance
 Print the value of Field gold of that Player instance to the Console.
 */
 
-Player gold = new Player();     //"gold" is the instance of a new object (new player)
+Player resources = new Player();     //"gold" is the instance of a new object (new player)
 
-Console.WriteLine(gold);
+Console.WriteLine(resources.gold);

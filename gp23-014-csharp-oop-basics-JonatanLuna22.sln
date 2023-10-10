@@ -6,6 +6,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P1.1 Classes", "P1.1 Classe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P2.1 Player gold", "P2.1 Player gold\P2.1 Player gold.csproj", "{8B04D815-C29C-4BDA-8B22-65F96CB230CD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P2.2 Item Values", "P2.2 Item Values\P2.2 Item Values.csproj", "{47D7CA2F-53CD-4B02-AC48-817311386E31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P2 Fields", "P2 Fields\P2 Fields.csproj", "{2A332322-0605-48B1-A368-D7FD63409A4A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +28,13 @@ Global
 		{8B04D815-C29C-4BDA-8B22-65F96CB230CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B04D815-C29C-4BDA-8B22-65F96CB230CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B04D815-C29C-4BDA-8B22-65F96CB230CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47D7CA2F-53CD-4B02-AC48-817311386E31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47D7CA2F-53CD-4B02-AC48-817311386E31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47D7CA2F-53CD-4B02-AC48-817311386E31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47D7CA2F-53CD-4B02-AC48-817311386E31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A332322-0605-48B1-A368-D7FD63409A4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A332322-0605-48B1-A368-D7FD63409A4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A332322-0605-48B1-A368-D7FD63409A4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A332322-0605-48B1-A368-D7FD63409A4A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
