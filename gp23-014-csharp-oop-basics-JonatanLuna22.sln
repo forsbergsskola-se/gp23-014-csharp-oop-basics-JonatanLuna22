@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P2.2 Item Values", "P2.2 It
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P2 Fields", "P2 Fields\P2 Fields.csproj", "{2A332322-0605-48B1-A368-D7FD63409A4A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P3 Level Up", "P3 Level Up\P3 Level Up.csproj", "{D96A7625-86C2-4595-AE00-91C78A0F7D77}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{2A332322-0605-48B1-A368-D7FD63409A4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A332322-0605-48B1-A368-D7FD63409A4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A332322-0605-48B1-A368-D7FD63409A4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D96A7625-86C2-4595-AE00-91C78A0F7D77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D96A7625-86C2-4595-AE00-91C78A0F7D77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D96A7625-86C2-4595-AE00-91C78A0F7D77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D96A7625-86C2-4595-AE00-91C78A0F7D77}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
