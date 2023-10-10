@@ -9,19 +9,19 @@ public class GetExp
 
         Console.WriteLine("How many experience do you grant?");
         int input = int.Parse(Console.ReadLine());
-        Experience = input;
+        this.Experience = input;
 
         // Level Up
 
-        while (Experience > ExpNeeded)
+        while (this.Experience > this.ExpNeeded)
         {
-            Level++;
-            Experience -= ExpNeeded;
-            Experience = (int)Experience;
-            ExpNeeded *= 1.5f;
+            this.Level++;
+            this.Experience -= this.ExpNeeded;
+            this.Experience = (int)this.Experience;
+            this.ExpNeeded *= 1.25f;
             
             Console.WriteLine(@$"You level up!
-Lvl: {Level}, Exp: {Experience}");
+Lvl: {this.Level}, Exp: {this.Experience}");
             Console.WriteLine();
         }
     }

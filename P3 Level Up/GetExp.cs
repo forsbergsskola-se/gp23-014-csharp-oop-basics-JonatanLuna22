@@ -1,5 +1,5 @@
 ﻿
-public class GetExp 
+public class Player 
 {
     public int Level;
     public int Experience;
@@ -16,8 +16,10 @@ public class GetExp
         {
             Level++;
             Experience -= 100;
+            
+            Console.WriteLine(@$"You level up!
+Lvl: {Level}, Exp: {Experience}");
+            Console.WriteLine();
         }
-        
-        Console.WriteLine($"Lvl: {Level}, Exp: {Experience}");
     }
 }
