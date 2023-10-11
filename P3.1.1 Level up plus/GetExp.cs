@@ -3,27 +3,26 @@ public class Player
     public int Level;
     public float Experience;
     public float ExpNeeded = 100;
-
-    public void GrantExperience()
+    
+    public void GrantExperience(int input)
     {
-
-        Console.WriteLine("How many experience do you grant?");
-        int input = int.Parse(Console.ReadLine());
-        this.Experience = input;
-
+        Experience = input;
+        
         // Level Up
 
-        while (this.Experience > this.ExpNeeded)
+        while (Experience > ExpNeeded)
         {
-            this.Level++;
-            this.Experience -= this.ExpNeeded;
-            this.Experience = (int)this.Experience;
-            this.ExpNeeded *= 1.25f;
+            Level++;
+            Experience -= ExpNeeded;
+            Experience = (int)Experience;
+            ExpNeeded *= 1.25f;
             
             Console.WriteLine(@$"You level up!
-Lvl: {this.Level}, Exp: {this.Experience}");
+Lvl: {Level}, Exp: {Experience}");
             Console.WriteLine();
         }
+        Console.WriteLine($"Lvl: {Level}, Exp: {Experience}");
+        Console.WriteLine();
     }
 }    
 

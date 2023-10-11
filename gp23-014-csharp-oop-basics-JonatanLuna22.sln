@@ -12,9 +12,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P2 Fields", "P2 Fields\P2 F
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P3 Level Up", "P3 Level Up\P3 Level Up.csproj", "{D96A7625-86C2-4595-AE00-91C78A0F7D77}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P3.1 Level up plus", "P3.1 Level up plus\P3.1 Level up plus.csproj", "{328CA896-4000-4CE3-8ADB-A2432BD9A1B2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P3.1.1 Level up plus", "P3.1.1 Level up plus\P3.1.1 Level up plus.csproj", "{328CA896-4000-4CE3-8ADB-A2432BD9A1B2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P4.1 Replacing", "P4.1 Replacing\P4.1 Replacing.csproj", "{CA62F21E-0AAF-4078-9697-DBEE73B32A4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P3.2 Hello World", "P3.2 Hello World\P3.2 Hello World.csproj", "{CE8709CD-5177-4420-9A2A-69AF256DA832}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -54,5 +56,9 @@ Global
 		{CA62F21E-0AAF-4078-9697-DBEE73B32A4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA62F21E-0AAF-4078-9697-DBEE73B32A4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA62F21E-0AAF-4078-9697-DBEE73B32A4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE8709CD-5177-4420-9A2A-69AF256DA832}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE8709CD-5177-4420-9A2A-69AF256DA832}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE8709CD-5177-4420-9A2A-69AF256DA832}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE8709CD-5177-4420-9A2A-69AF256DA832}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

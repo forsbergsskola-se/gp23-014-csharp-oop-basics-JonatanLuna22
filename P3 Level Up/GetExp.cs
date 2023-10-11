@@ -4,10 +4,8 @@ public class Player
     public int Level;
     public int Experience;
     
-    public void GrantExperience() {
-        
-        Console.WriteLine("How many experience do you grant?");
-        int input = int.Parse(Console.ReadLine());
+    public void GrantExperience(int input) 
+    {
         Experience = input;
         
         // Level Up
