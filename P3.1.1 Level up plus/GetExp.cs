@@ -1,15 +1,20 @@
 public class Player
 {
-    public int Level;
-    public float Experience;
-    public float ExpNeeded = 100;
+    public static int Level;
+    public static float Experience;
+    public static float ExpNeeded = 100;
     
     public void GrantExperience(int input)
     {
-        Experience = input;
+        Experience += input;
         
         // Level Up
 
+        if (Experience < ExpNeeded)
+        {
+            Console.WriteLine($"Lvl: {Level}, Exp: {Experience}");
+        }
+        
         while (Experience > ExpNeeded)
         {
             Level++;
@@ -21,8 +26,6 @@ public class Player
 Lvl: {Level}, Exp: {Experience}");
             Console.WriteLine();
         }
-        Console.WriteLine($"Lvl: {Level}, Exp: {Experience}");
-        Console.WriteLine();
     }
 }    
 
