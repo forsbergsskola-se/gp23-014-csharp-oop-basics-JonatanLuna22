@@ -30,26 +30,21 @@ Bonus 1: Draw the Hierarchy as an Image using a Drawing Application or Miro
 Bonus 2: Use Mermaid to create a Mermaid Diagram for the Class Hierarchy and put it in your Repository's README.md
 */
 
-/*
-Can they be held in your hands?
-Is it an object intended to be used in Combat?
-Do they live?
-Are they known to have many Vitamins?
-Can they be eaten?
-Hint: You need to add some additional classes. e.g.:
-*/
-
-/*
-Bread, Banana, Apple, Pear
-Sword, Axe, Pencil, Shield, Spear
-Tree, Gorilla, Chimpanzee, Sparrow, Pigeon, Hawk
-*/
 
 // public class item
-// public class food
+//      public class food
+//          public class vitamin
+//      public class weapon
+//          public class defend
+//          public class attack
+//      public class tool
 
-// public class weapon
-// public class livingBeing
-// public class food
-// public class vitamins
- 
+
+// public class environment
+//      public class livingBeing
+//          public class plant
+//          public class animal
+//              public class Bird
+//              public class Ape
+
+

@@ -1,4 +1,4 @@
-public class Axe
+public class Axe : Tool
 {
     
 }

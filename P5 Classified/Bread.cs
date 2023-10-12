@@ -1,4 +1,4 @@
-public class Bread
+public class Bread : Food
 {
     
 }

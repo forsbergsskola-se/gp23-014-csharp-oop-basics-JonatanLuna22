@@ -1,4 +1,4 @@
-public class Pencil
+public class Pencil : Tool
 {
     
 }

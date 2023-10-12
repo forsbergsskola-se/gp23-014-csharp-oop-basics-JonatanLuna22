@@ -1,4 +1,4 @@
-public class Pigeon
+public class Pigeon : Bird
 {
     
 }

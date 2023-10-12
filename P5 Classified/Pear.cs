@@ -1,4 +1,4 @@
-public class Pear
+public class Pear : Vitamin
 {
     
 }

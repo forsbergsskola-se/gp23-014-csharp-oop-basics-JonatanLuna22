@@ -1,4 +1,4 @@
-public class Chimpanzee
+public class Chimpanzee : Ape
 {
     
 }

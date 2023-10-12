@@ -1,4 +1,4 @@
-public class Sword
+public class Sword : Attack
 {
     
 }

@@ -1,4 +1,4 @@
-public class Banana
+public class Banana : Vitamin
 {
     
 }

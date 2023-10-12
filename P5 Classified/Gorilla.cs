@@ -1,4 +1,4 @@
-public class Gorilla
+public class Gorilla : Ape
 {
     
 }

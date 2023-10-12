@@ -1,4 +1,4 @@
-public class Tree
+public class Tree : Plant
 {
     
 }

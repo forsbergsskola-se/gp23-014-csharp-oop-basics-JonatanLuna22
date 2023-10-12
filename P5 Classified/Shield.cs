@@ -1,4 +1,4 @@
-public class Shield
+public class Shield : Defend
 {
     
 }
