@@ -11,8 +11,8 @@ void AskForExp()
     {
         return;
     }
+    
     int input = int.Parse(input0);
-
     player1.GrantExperience(input);
     
     AskForExp();

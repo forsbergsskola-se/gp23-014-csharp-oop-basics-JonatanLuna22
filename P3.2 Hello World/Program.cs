@@ -7,4 +7,7 @@ It should print "Hello, World!" to the Console
 Invoke the Method from your Program.cs
 */
 
-å
+World world1 = new World();
+
+world1.Hello();
+
