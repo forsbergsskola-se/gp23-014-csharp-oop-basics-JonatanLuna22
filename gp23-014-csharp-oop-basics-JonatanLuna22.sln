@@ -12,11 +12,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P2 Fields", "P2 Fields\P2 F
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P3 Level Up", "P3 Level Up\P3 Level Up.csproj", "{D96A7625-86C2-4595-AE00-91C78A0F7D77}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P3.1.1 Level up plus", "P3.1.1 Level up plus\P3.1.1 Level up plus.csproj", "{328CA896-4000-4CE3-8ADB-A2432BD9A1B2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P3 Level up plus", "P3 Level up plus\P3 Level up plus.csproj", "{328CA896-4000-4CE3-8ADB-A2432BD9A1B2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P4.1 Replacing", "P4.1 Replacing\P4.1 Replacing.csproj", "{CA62F21E-0AAF-4078-9697-DBEE73B32A4E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P3.2 Hello World", "P3.2 Hello World\P3.2 Hello World.csproj", "{CE8709CD-5177-4420-9A2A-69AF256DA832}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P3.1 Hello World", "P3.1 Hello World\P3.1 Hello World.csproj", "{CE8709CD-5177-4420-9A2A-69AF256DA832}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P. Together", "P. Together\P. Together.csproj", "{713C793C-5085-4F17-A61E-951A29648A53}"
 EndProject
@@ -25,6 +25,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P5.2 Harvest", "P5.2 Harvest\P5.2 Harvest.csproj", "{C5B3BF7C-5578-4C96-A292-C9458553A3B0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P5 Classified", "P5 Classified\P5 Classified.csproj", "{0033CC34-4EC2-42ED-B8FF-7C46874275C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P3.2 People", "P3.2 People\P3.2 People.csproj", "{909E9BD8-34A9-4F67-BC71-F71860027B26}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -84,5 +86,9 @@ Global
 		{0033CC34-4EC2-42ED-B8FF-7C46874275C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0033CC34-4EC2-42ED-B8FF-7C46874275C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0033CC34-4EC2-42ED-B8FF-7C46874275C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{909E9BD8-34A9-4F67-BC71-F71860027B26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{909E9BD8-34A9-4F67-BC71-F71860027B26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{909E9BD8-34A9-4F67-BC71-F71860027B26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{909E9BD8-34A9-4F67-BC71-F71860027B26}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

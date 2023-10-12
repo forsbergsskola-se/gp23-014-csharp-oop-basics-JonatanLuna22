@@ -30,21 +30,8 @@ Bonus 1: Draw the Hierarchy as an Image using a Drawing Application or Miro
 Bonus 2: Use Mermaid to create a Mermaid Diagram for the Class Hierarchy and put it in your Repository's README.md
 */
 
-
-// public class item
-//      public class food
-//          public class vitamin
-//      public class weapon
-//          public class defend
-//          public class attack
-//      public class tool
+Console.WriteLine("// public class item\n//      public class food\n//          public class vitamin\n//      public class weapon\n//          public class defend\n//          public class attack\n//      public class tool\n\n// public class environment\n//      public class livingBeing\n//          public class plant\n//          public class animal\n//              public class Bird\n//              public class Ape");
 
 
-// public class environment
-//      public class livingBeing
-//          public class plant
-//          public class animal
-//              public class Bird
-//              public class Ape
 
 
