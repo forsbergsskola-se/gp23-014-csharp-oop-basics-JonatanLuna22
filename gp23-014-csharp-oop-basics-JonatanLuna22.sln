@@ -28,6 +28,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P5 Classified", "P5 Classif
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P3.2 People", "P3.2 People\P3.2 People.csproj", "{909E9BD8-34A9-4F67-BC71-F71860027B26}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P3.3 Open Door", "P3.3 Open Door\P3.3 Open Door.csproj", "{3B048C2F-3105-4FFC-95C8-1E615804DA67}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -90,5 +92,9 @@ Global
 		{909E9BD8-34A9-4F67-BC71-F71860027B26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{909E9BD8-34A9-4F67-BC71-F71860027B26}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{909E9BD8-34A9-4F67-BC71-F71860027B26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B048C2F-3105-4FFC-95C8-1E615804DA67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B048C2F-3105-4FFC-95C8-1E615804DA67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B048C2F-3105-4FFC-95C8-1E615804DA67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B048C2F-3105-4FFC-95C8-1E615804DA67}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
