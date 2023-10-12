@@ -10,23 +10,28 @@ Let the Console User decide their names
 Afterwards invoke Greeting on all People
 */
 
-int[] people = new int[3];
+Person[] people = new Person [3]; 
 
-Console.WriteLine("Name your first character:");
-string input1 = Console.ReadLine();
-Console.WriteLine("Name your second character:");
-string input2 = Console.ReadLine();
-Console.WriteLine("Name your third character:");
-string input3 = Console.ReadLine();
-
-for (int i = 0; i < people.Length; i++)
+for (var i = 0; i < people.Length; i++)
 {
-    
+    people[i] = new Person();
 }
 
-people[1] = 1;
-people[2] = 1;
-people[3] = 1;
+Console.WriteLine("Name your first character:");
+people[0].Name = Console.ReadLine();
+Console.WriteLine("Name your second character:");
+people[1].Name = Console.ReadLine();
+Console.WriteLine("Name your third character:");
+people[2].Name = Console.ReadLine();
+
+for (var i = 0; i < people.Length; i++)
+{
+    people[i].Greeting();
+}
+
+
+
+
 
     
 

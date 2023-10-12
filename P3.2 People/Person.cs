@@ -4,6 +4,6 @@ public class Person
 
     public void Greeting()
     {
-        Console.WriteLine($"My name is {}.");
+        Console.WriteLine($"Hello, I'm {Name}.");
     }
 }
