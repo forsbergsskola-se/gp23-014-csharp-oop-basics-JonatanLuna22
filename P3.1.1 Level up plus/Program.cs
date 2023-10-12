@@ -5,11 +5,13 @@ Player player1 = new Player();
 void AskForExp()
 {
     Console.WriteLine("How many experience do you grant?");
-    if (Console.ReadLine() == "quit")
+    string input0 = Console.ReadLine();
+   
+    if (input0 == "quit" || input0 == "Quit")
     {
-        break
+        return;
     }
-    int input = int.Parse(Console.ReadLine());
+    int input = int.Parse(input0);
 
     player1.GrantExperience(input);
     
@@ -17,6 +19,7 @@ void AskForExp()
 }
 
 AskForExp();
+
 
 
 
