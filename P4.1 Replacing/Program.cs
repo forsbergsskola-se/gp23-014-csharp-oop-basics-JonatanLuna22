@@ -12,3 +12,13 @@ Assign a new instance of class Plant to the same variable.
 Check the Status.
 */
 
+Plant plant1 = new Plant();
+Plant plant2 = new Plant();
+
+plant1.PrintStatus();
+plant1.Grow();
+plant1.PrintStatus();
+plant1.Grow();
+Console.WriteLine();
+plant2.PrintStatus();
+
