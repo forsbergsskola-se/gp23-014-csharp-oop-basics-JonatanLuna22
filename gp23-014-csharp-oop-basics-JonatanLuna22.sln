@@ -36,6 +36,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P4.3 Passing references", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P4 Attack", "P4 Attack\P4 Attack.csproj", "{7BCB239F-0809-42A8-B8C0-232C388715DA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P6. Well Hello there", "P6. Well Hello there\P6. Well Hello there.csproj", "{EC6159F2-616A-4C90-A6F6-5E3E70CB06BD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -114,5 +116,9 @@ Global
 		{7BCB239F-0809-42A8-B8C0-232C388715DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7BCB239F-0809-42A8-B8C0-232C388715DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7BCB239F-0809-42A8-B8C0-232C388715DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC6159F2-616A-4C90-A6F6-5E3E70CB06BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC6159F2-616A-4C90-A6F6-5E3E70CB06BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC6159F2-616A-4C90-A6F6-5E3E70CB06BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC6159F2-616A-4C90-A6F6-5E3E70CB06BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
