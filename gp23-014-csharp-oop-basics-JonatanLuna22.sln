@@ -40,7 +40,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P6. Lightsaber", "P6. Light
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P6.2 Pizza", "P6.2 Pizza\P6.2 Pizza.csproj", "{39EFAE5D-E186-49EC-A90C-697749907D09}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P6 Composition", "P6 Composition\P6 Composition.csproj", "{E669FCD5-47F9-4270-97AE-46911F948E94}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P6 GoodKnight", "P6 GoodKnight\P6 GoodKnight.csproj", "{E669FCD5-47F9-4270-97AE-46911F948E94}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
