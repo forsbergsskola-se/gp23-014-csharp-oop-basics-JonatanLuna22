@@ -34,14 +34,25 @@ Let attacker Attack defender
 Let attacker Attack defender
 */
 
+Sword sword1 = new Sword();
+Shield shield1 = new Shield();
+
 Knight knightAttack = new Knight();
 Knight knightDefend = new Knight();
 
-// knightDefend.Shield
+knightAttack.Sword = new Sword();
+knightDefend.Shield = new Shield();
+knightAttack.Sword = null;
+knightDefend.Shield = null;
+
+
+knightDefend.Shield = shield1;  // knightDefend.Shield
 
 knightAttack.Attack(knightDefend);
+knightDefend.GetHit(sword1);
+Console.WriteLine("Equipping Sword...");
 
-// knightAttack.Sword
+knightAttack.Sword = sword1;    // knightAttack.Sword
 
 knightAttack.Attack(knightDefend);
 knightAttack.Attack(knightDefend);
