@@ -2,30 +2,60 @@
 {
     public Sword Sword;
     public Shield Shield;
-
-    public void SwordOn()
-    {
-        Sword = true;
-    }
-
-   
-
-    public void GetHit(Sword sword)
-    {
-        while ()
-        {
-            Console.WriteLine("Knights Shield was pierced by the Sword.");
-        }
-        Console.WriteLine("Knights Shield fends off the strike.");
-    }
     
-    public void Attack(Knight knight)
+    void GetHit(Sword sword)
     {
-        while (knight.Sword == Sword)
+        if (sword != null)
+        {
+            if (Shield != null)
+            {
+                Shield = null;
+                Console.WriteLine("Knights Shield was pierced by the Sword.");
+            }
+            else 
+                Console.WriteLine("The Knight has no Shield and is wounded.");
+        }
+
+        else if (Shield != null)
+        {
+            Console.WriteLine("Knights Shield fends off the strike.");
+        }
+    }  
+    
+    public void Attack(Knight knightDefend)
+    {
+        if (Sword != null)
         {
             Console.WriteLine("Knights attacks Knight with a Sword.");
-           
         }
-        Console.WriteLine("Knight attacks Knight with Bare Hands.");
+        else
+        {
+            Console.WriteLine("Knight attacks Knight with Bare Hands.");
+        }
+             
+        knightDefend.GetHit(Sword);
     }
 }
+
+/*
+ 
+ public void GetHit(Sword sword)
+ {
+     if (sword != null && Shield != null)
+     {
+         Shield = null;
+         Console.WriteLine("Knights Shield was pierced by the Sword.");
+     }
+
+     else if (sword != null && Shield == null)
+     {
+         Console.WriteLine("The Knight has no Shield and is wounded.");
+     }
+
+     else if (sword == null && Shield != null)
+     {
+         Console.WriteLine("Knights Shield fends off the strike.");
+     }
+ }
+ 
+*/
