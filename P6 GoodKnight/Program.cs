@@ -35,12 +35,14 @@ Let attacker Attack defender
 */
 
 
-Knight knightAttack = new Knight();
-Knight knightDefend = new Knight();
+Knight knightAttack = new Knight(); // 1
+Knight knightDefend = new Knight(); // 2
 
+// 2
+knightDefend.Shield = new Shield(); // 3
 
-knightDefend.Shield = new Shield();
-
+// 1                   // 2
+knightDefend.Attack(knightAttack);
 knightAttack.Attack(knightDefend);
 //knightDefend.GetHit(knightAttack.Sword);
 
